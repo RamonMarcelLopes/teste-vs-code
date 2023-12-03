@@ -19,7 +19,7 @@ while (question1 >= 3) {
 }
 
 if (question1 == 1) {
-  age = ask('write year of birth ');
+  age = ask('write your year of birth ');
 }
 if (question1 == 2) {
   age = ask('write your current age ');
