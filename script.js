@@ -1,21 +1,21 @@
+///select elements///
 let button = document.getElementById('button-action');
 let select = document.getElementById('types');
 let input = document.getElementById('input-age');
 let img = document.getElementById('loading-img');
 let textResult = document.getElementById('result');
 let yourage = document.getElementById('your-age');
+////////////////////
 
-///variables///
+///variables////
 let minAge = 18;
 let age = 0;
 let choice = 'current';
 let results = Boolean;
 let currentAgeForShow = 0;
+////////////////
 
-//////////////
-/////////////
 ///functions////
-
 let selectChange = () => {
   choice = select.value;
 };
@@ -69,7 +69,8 @@ let buttonPressed = () => {
   setResult();
 };
 /////////////
-
+///events////
 button.addEventListener('click', buttonPressed);
 select.addEventListener('change', selectChange);
 input.addEventListener('change', inputChanged);
+////////////

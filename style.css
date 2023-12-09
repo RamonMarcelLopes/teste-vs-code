@@ -55,6 +55,7 @@ body {
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 20px;
 }
 .select option {
   border-radius: 50px;
@@ -79,6 +80,7 @@ body {
   height: 80%;
   width: 40%;
   border-radius: 10px;
+  font-size: 20px;
 }
 .button-action:active {
   transform: scale(0.99);
