@@ -1,1 +1,1 @@
-<h1>just a simple code forreconfigure my vs code lol </h1>
+<h1>just a simple code for reconfigure my vs code lol </h1>
