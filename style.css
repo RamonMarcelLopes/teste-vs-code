@@ -1,0 +1,117 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+body {
+  background-color: #212130;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-text h1 {
+  color: #fff;
+  font-size: 19px;
+}
+.h1-choices {
+  color: #fff;
+  font-size: 35px;
+}
+.container-all {
+  height: 500px;
+  width: 400px;
+  background-color: #383849;
+  border-radius: 20px;
+  border: 2px solid #23ec69;
+}
+.container-text {
+  width: 100%;
+  height: 10%;
+  border-bottom: 2px solid #23ec69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 45%;
+  width: 100%;
+  background-color: #383849;
+  border-bottom: 2px solid #23ec69;
+}
+.select {
+  text-align: center;
+  font-family: monospace;
+  height: 40px;
+  width: 80%;
+  border: 0px;
+  margin: 0;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.select option {
+  border-radius: 50px;
+}
+.input-age {
+  text-align: center;
+  border: none;
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+}
+.container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  background-color: #383849;
+  border-bottom: 2px solid #23ec69;
+}
+.button-action {
+  height: 80%;
+  width: 40%;
+  border-radius: 10px;
+}
+.button-action:active {
+  transform: scale(0.99);
+}
+.button-action:hover {
+  background-color: #c3c3c3;
+}
+.container-response {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 35%;
+  width: 100%;
+}
+.loading-img-true {
+  display: flex;
+  height: 100%;
+}
+.loading-img-false {
+  display: none;
+}
+#your-age {
+  color: #fff;
+}
+#result {
+  color: #ddd;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.girl-img {
+  height: 500px;
+
+  margin-right: 100px;
+  margin-left: 100px;
+}

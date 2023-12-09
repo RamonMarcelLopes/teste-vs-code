@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test if tou can drink some beers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img class="girl-img" src="pngegg.png" alt="" />
+    <div class="container-all">
+      <div class="container-text">
+        <h1>Let's see if you can drink some beers</h1>
+      </div>
+      <div class="box-select">
+        <h1 class="h1-choices">choose what you want</h1>
+        <h1 class="h1-choices">to write</h1>
+        <select name="types" id="types" class="select">
+          <option value="current">your current age</option>
+          <option value="noCurrent">your year of birth</option>
+        </select>
+        <input
+          id="input-age"
+          class="input-age"
+          type="number"
+          placeholder="write here only numbers"
+        />
+      </div>
+      <div class="container-button">
+        <button id="button-action" class="button-action">let's see</button>
+      </div>
+      <div class="container-response">
+        <img
+          id="loading-img"
+          class="loading-img-false"
+          src="https://i.gifer.com/XOsX.gif"
+          alt="laoding image"
+        />
+        <h1 id="result"></h1>
+
+        <h2 id="your-age"></h2>
+      </div>
+    </div>
+    <img class="girl-img" src="pngegg.png" alt="" />
+    <script src="script.js"></script>
+  </body>
+</html>
