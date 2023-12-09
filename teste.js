@@ -1,5 +1,5 @@
 const ask = require('prompt-sync')();
-
+//teste
 const canIDrink = 18;
 let age = 0;
 
