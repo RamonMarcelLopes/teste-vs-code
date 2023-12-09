@@ -69,6 +69,7 @@ let buttonPressed = () => {
   setResult();
 };
 /////////////
+
 ///events////
 button.addEventListener('click', buttonPressed);
 select.addEventListener('change', selectChange);
