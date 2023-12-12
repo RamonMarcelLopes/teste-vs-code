@@ -67,14 +67,13 @@ let buttonPressed = () => {
 
   setResult();
 };
-///especial events///
+///special events///
 document.addEventListener('keydown', (event) => {
   if (event.key == 'Enter') {
     buttonPressed();
   }
 });
 ////////////////////
-/////////////
 
 ///events////
 button.addEventListener('click', buttonPressed);
