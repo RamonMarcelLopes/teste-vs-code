@@ -19,9 +19,7 @@ let currentAgeForShow = 0;
 let selectChange = () => {
   choice = select.value;
 };
-let inputChanged = () => {
-  age = input.value;
-};
+
 let setResult = () => {
   setInterval(() => {
     img.classList.remove('loading-img-true');
@@ -45,6 +43,7 @@ let buttonPressed = () => {
   yourage.innerHTML = ``;
   img.classList.remove('loading-img-false');
   img.classList.add('loading-img-true');
+  age = input.value;
   if (choice == 'current') {
     if (age >= minAge) {
       results = true;
@@ -68,10 +67,16 @@ let buttonPressed = () => {
 
   setResult();
 };
+///especial events///
+document.addEventListener('keydown', (event) => {
+  if (event.key == 'Enter') {
+    buttonPressed();
+  }
+});
+////////////////////
 /////////////
 
 ///events////
 button.addEventListener('click', buttonPressed);
 select.addEventListener('change', selectChange);
-input.addEventListener('change', inputChanged);
 ////////////
